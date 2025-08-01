@@ -1,0 +1,55 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "build A_matrix",
+        "type": "shell",
+        "command": "g++",
+        "args": ["-std=c++17", "-g", "A_matrix.cpp", "-o", "kitaev_exec_A"],
+        "group": "build"
+      },
+      {
+        "label": "build 2_plates",
+        "type": "shell",
+        "command": "g++",
+        "args": ["-std=c++17", "-g", "2_plates.cpp", "-o", "kitaev_exec_2plates"],
+        "group": "build"
+      },
+      {
+        "label": "build A1_matrix",
+        "type": "shell",
+        "command": "g++",
+        "args": [
+            "-std=c++17",
+            "-g",
+            "A1_matrix.cpp",
+            "-o",
+            "A1_exec"
+        ],
+        "group": {
+            "kind": "build",
+            "isDefault": true
+        }
+    },
+    {
+      "label": "Run Pfaffian Calculator",
+      "type": "shell",
+      "command": "${config:python.pythonPath}",
+      "args": [
+        "${workspaceFolder}/pfaffian_calc.py"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [],
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared"
+      }
+    }
+    ]
+  }
+  

@@ -10,15 +10,12 @@ if not np.allclose(A, -A.T):
 
 # Compute Pfaffian
 pf = pfaffian.pfaffian(A)
-
+# det A
+det = np.linalg.det(A)
 # Fermion parity
 fermion_parity = np.sign(pf)  # Will be -1.0, 0.0, or 1.0
 
 # Output
 print(f"Pfaffian: {pf}")
 print(f"Fermion Parity: {int(fermion_parity)}")
-
-# Print matrix A1 with fixed-width formatting (like C++ setw(5))
-print("Matrix A1:")
-for row in A:
-    print("".join(f"{int(val):>5}" for val in row))
+print(f"Determinant: {det}")

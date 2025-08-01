@@ -1,0 +1,45 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Run A_matrix",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "${workspaceFolder}/kitaev_exec_A",
+        "cwd": "${workspaceFolder}",
+        "MIMode": "lldb",
+        "preLaunchTask": "build A_matrix"
+      },
+      {
+        "name": "Run 2_plates",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "${workspaceFolder}/kitaev_exec_2plates",
+        "cwd": "${workspaceFolder}",
+        "MIMode": "lldb",
+        "preLaunchTask": "build 2_plates"
+      },
+      {
+        "name": "Run A1_matrix",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "${workspaceFolder}/A1_exec",
+        "args": [],
+        "stopAtEntry": false,
+        "cwd": "${workspaceFolder}",
+        "environment": [],
+        "externalConsole": false,
+        "MIMode": "lldb",
+        "preLaunchTask": "build A1_matrix"
+    },
+    {
+      "name": "Debug Pfaffian Large Python Script",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/pfaffian_calc.py",
+      "console": "integratedTerminal",
+      "justMyCode": false
+    }
+    ]
+  }
+  
