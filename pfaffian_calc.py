@@ -1,5 +1,6 @@
 import numpy as np
-from pfapack import pfaffian
+import argparse
+from pfapack import pfaffian as pf
 
 # Load matrix A1
 A = np.loadtxt('A1.txt')
@@ -9,7 +10,7 @@ if not np.allclose(A, -A.T):
     print("⚠️ Warning: Matrix is not antisymmetric!")
 
 # Compute Pfaffian
-pf = pfaffian.pfaffian(A)
+pf = pf.pfaffian(A)
 # det A
 det = np.linalg.det(A)
 # Fermion parity
