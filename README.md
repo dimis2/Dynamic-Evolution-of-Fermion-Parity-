@@ -10,7 +10,7 @@ $P = \mathrm{sgn}[\mathrm{Pf}(A)]$.
 🧩 Concept
 
 In the Kitaev model, each bond carries a $\mathbb{Z}2$ variable $u{ij} = \pm 1$ that defines the local gauge configuration.
-The global fermionic parity depends on the complete pattern of these bond variables through the antisymmetric matrix $A$:
+The global fermionic parity depends on the complete pattern of these bond variables through the antisymmetric matrix $A$:<br>
 $A_{ij} =  -2 J_{\alpha} u_{ij}, \qquad \alpha \in \{x, y, z\}$.
 
 
