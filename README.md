@@ -102,12 +102,7 @@ Research paper:
 “Dynamic Evolution of Fermionic Parity in the Kitaev Honeycomb Model”
 Demetris Dimitriadis (2025)
 
-
-⚖️ License
-
-This project is released under the MIT License.
-You are free to use, modify, and cite this code with proper attribution.
-
+<pre><code class="language-bibtex">
 @misc{dimitriadis2025parity,
   author       = {Demetris Dimitriadis},
   title        = {Dynamic Evolution of Fermionic Parity in the Kitaev Honeycomb Model},
@@ -115,4 +110,11 @@ You are free to use, modify, and cite this code with proper attribution.
   url          = {https://github.com/dimis2/Dynamic-Evolution-of-Fermion-Parity-},
   note         = {Preprint and data repository},
 }
+</code></pre>
+
+⚖️ License
+
+This project is released under the MIT License.
+You are free to use, modify, and cite this code with proper attribution.
+
 
