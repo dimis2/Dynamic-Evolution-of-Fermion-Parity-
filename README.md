@@ -11,7 +11,7 @@ $P = \mathrm{sgn}[\mathrm{Pf}(A)]$.
 
 In the Kitaev model, each bond carries a $\mathbb{Z}2$ variable $u{ij} = \pm 1$ that defines the local gauge configuration.
 The global fermionic parity depends on the complete pattern of these bond variables through the antisymmetric matrix $A$:
- $A_{ij} =  -2 J_{\alpha} u_{ij}, \qquad \alpha \in \{x, y, z\}$.
+$A_{ij} =  -2 J_{\alpha} u_{ij}, \qquad \alpha \in \{x, y, z\}$.
 
 
 ⚙️ Computational Setup
@@ -22,14 +22,14 @@ Bonds: 339
 Bond types: $(x, y, z)$, following Kitaev’s even→odd site convention
 Matrix construction (C++)
 The antisymmetric matrix is generated using:
-$$
-A[i][j] = -2 J_{\alpha} u_{ij}
-$$
+
+$A[i][j] = -2 J_{\alpha} u_{ij}$
+
 Pfaffian computation (Python)
 
 The antisymmetric matrix $A$ is exported to Python and analyzed using pfapack.
 The fermionic parity is obtained from the sign of the Pfaffian:
-$$P = \mathrm{sgn}[\mathrm{Pf}(A)]$$
+$P = \mathrm{sgn}[\mathrm{Pf}(A)]$
 Experimental Procedure
 
 1. Anchor bond
@@ -39,9 +39,9 @@ Fix one bond $u_{12} = -1$ as a permanent reference.
 Iterate through all other bonds $u_{ij}$, setting one to $-1$ at a time
 while all remaining bonds stay $+1$.
 Each configuration therefore has exactly two negative bonds:
-$$
-{u_{12},u_{ij}}
-$$
+
+${u_{12},u_{ij}}$
+
 4. Parity measurement
 For each configuration, compute the Pfaffian and record whether the fermionic parity flips.
 
