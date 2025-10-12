@@ -87,7 +87,7 @@ these patterns suggest the existence of a deeper topological relationship betwee
 
 A1_matrix.cpp – C++ program that constructs the antisymmetric matrix $A$.<br>
 
-2_platescpp - c++ program that constructs the antisymmetric matrix $A$ of 2 plates only we did this just for practice ignore it.<br>
+2_plates.cpp - c++ program that constructs the antisymmetric matrix $A$ of 2 plates only we did this just for practice ignore it.<br>
 
 pfaffian_parity.py – Python script used to compute the Pfaffian and fermionic parity.<br>
 
