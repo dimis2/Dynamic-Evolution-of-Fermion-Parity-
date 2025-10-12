@@ -94,7 +94,7 @@ visualization/ – Scripts for generating lattice plots and parity-flip maps.
 
 experiment_results_tables.tex – LaTeX tables summarizing all measured results.
 
-Dynamic_evolution_of_fermionic_parity.pdf – Research paper draft presenting the methodology and findings.
+Paper.pdf – Research paper draft presenting the methodology and findings.
 
 📚 Reference
 
