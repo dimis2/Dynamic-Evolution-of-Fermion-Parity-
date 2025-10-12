@@ -1,11 +1,10 @@
 
 
-
 🔷 Dynamic Evolution of Fermionic Parity in the Kitaev Honeycomb Model
 
 This repository explores how local gauge variations in the Kitaev honeycomb model (HKM) influence the global fermionic parity.
 The main objective is to search for a global topological rule that connects local bond variables $u_{ij}$ to the global invariant
-$P = \mathrm{sgn}[\mathrm{Pf}(A)]$.
+$P = \mathrm{sgn}[\mathrm{Pf}(A)]$. We investigate the dynamic evolution of fermionic parity in the Kitaev honeycomb model (HKM) through a combination of analytical derivation and large-scale computational experiments. Using a lattice of one hundred hexagonal plaquettes, we systematically study how local flux excitations $u_{ij}=-1$ affect the global fermionic parity $P=\mathrm{sgn}(\mathrm{Pf}(A))$ of the system. By fixing one reference bond ($u_{12}=-1$) and varying all other bonds sequentially, the objective of this study is to search for a global topological rule that describes how a local gauge variation $u_{ij}$ can influence a global invariant such as the fermionic parity. Understanding this connection is essential for revealing how local gauge dynamics encode global topological properties and for predicting parity changes without the need for full Pfaffian evaluation—an advance that could significantly accelerate simulations and clarify the stability of Majorana-based quantum information. The numerical analysis reveals consistent geometrical patterns suggesting that parity changes depend not only on the number of flipped bonds but also on their spatial arrangement and bond orientation within the lattice. Although a precise mathematical law has not yet been formulated, the observed behavior points toward a deeper topological connection between local gauge dynamics and global parity sectors, which may motivate further analytical exploration by other researchers.
 
 🧩 Concept
 
