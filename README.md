@@ -1,3 +1,4 @@
+ ⚠️ **Caution:** To fully understand this repository, it is strongly recommended to read the (Paper.pdf) first.
 
 
 🔷 Dynamic Evolution of Fermionic Parity in the Kitaev Honeycomb Model
