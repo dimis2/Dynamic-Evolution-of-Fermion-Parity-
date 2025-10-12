@@ -88,11 +88,7 @@ A1_matrix.cpp – C++ program that constructs the antisymmetric matrix $A$.
 
 pfaffian_parity.py – Python script used to compute the Pfaffian and fermionic parity.
 
-experiment_results/ – Dataset containing parity outcomes for each flipped bond configuration.
-
-visualization/ – Scripts for generating lattice plots and parity-flip maps.
-
-experiment_results_tables.tex – LaTeX tables summarizing all measured results.
+experiment results of A1_matrix.cpp.pdf – Dataset containing parity outcomes for each flipped bond configuration.
 
 Paper.pdf – Research paper draft presenting the methodology and findings.
 
