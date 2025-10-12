@@ -14,6 +14,20 @@ The global fermionic parity depends on the complete pattern of these bond variab
 $A_{ij} =  -2 J_{\alpha} u_{ij}, \qquad \alpha \in \{x, y, z\}$.
 
 
+🔭 Research Goal
+
+The goal of this study is to uncover a universal topological rule that governs how local bond variations $u_{ij}$ affect the global fermionic parity $P$.
+
+Finding such a rule would:
+
+Reveal how local gauge dynamics encode global topological order,
+
+Provide a fast alternative to full Pfaffian evaluation in large-scale simulations,
+
+Offer insights into the stability of Majorana-based quantum information under local perturbations,
+
+And potentially generalize to other $\mathbb{Z}_2$ lattice gauge systems.
+
 ⚙️ Computational Setup
 <img width="2880" height="1800" alt="Screenshot 2025-07-16 at 1 19 49 PM" src="https://github.com/user-attachments/assets/4afcd133-5ca4-4560-a514-30ac2180fa6a" />
 Lattice: 100 hexagonal plaquettes ($W_1$–$W_{100}$)
@@ -53,19 +67,6 @@ Analyze spatial correlations between flipping bonds.
 
 Examine dependence on bond type ($x$, $y$, $z$) and boundary position.
 
-🔭 Research Goal
-
-The goal of this study is to uncover a universal topological rule that governs how local bond variations $u_{ij}$ affect the global fermionic parity $P$.
-
-Finding such a rule would:
-
-Reveal how local gauge dynamics encode global topological order,
-
-Provide a fast alternative to full Pfaffian evaluation in large-scale simulations,
-
-Offer insights into the stability of Majorana-based quantum information under local perturbations,
-
-And potentially generalize to other $\mathbb{Z}_2$ lattice gauge systems.
 
 🧮 Results Summary
 
@@ -85,7 +86,7 @@ these patterns suggest the existence of a deeper topological relationship betwee
 📦 Repository Contents
 
 A1_matrix.cpp – C++ program that constructs the antisymmetric matrix $A$.
-
+2.plates.cpp - c++ program that constructs the antisymmetric matrix $A$ of 2 plates only we did this just for practice ignore it.
 pfaffian_parity.py – Python script used to compute the Pfaffian and fermionic parity.
 
 experiment results of A1_matrix.cpp.pdf – Dataset containing parity outcomes for each flipped bond configuration.
