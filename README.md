@@ -85,13 +85,15 @@ these patterns suggest the existence of a deeper topological relationship betwee
 
 📦 Repository Contents
 
-A1_matrix.cpp – C++ program that constructs the antisymmetric matrix $A$.
-2.plates.cpp - c++ program that constructs the antisymmetric matrix $A$ of 2 plates only we did this just for practice ignore it.
-pfaffian_parity.py – Python script used to compute the Pfaffian and fermionic parity.
+A1_matrix.cpp – C++ program that constructs the antisymmetric matrix $A$.<br>
 
-experiment results of A1_matrix.cpp.pdf – Dataset containing parity outcomes for each flipped bond configuration.
+2_platescpp - c++ program that constructs the antisymmetric matrix $A$ of 2 plates only we did this just for practice ignore it.<br>
 
-Paper.pdf – Research paper draft presenting the methodology and findings.
+pfaffian_parity.py – Python script used to compute the Pfaffian and fermionic parity.<br>
+
+experiment results of A1_matrix.cpp.pdf – Dataset containing parity outcomes for each flipped bond configuration.<br>
+
+Paper.pdf – Research paper draft presenting the methodology and findings.<br>
 
 📚 Reference
 
